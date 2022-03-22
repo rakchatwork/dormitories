@@ -1,0 +1,13 @@
+.private-body-container {
+  transition: 0.5s;
+  position: absolute;
+  left: 14%;
+  width: 86%;
+}
+
+@media only screen and (max-width: 975px) {
+  .private-body-container {
+    left: 0%;
+    width: 100%;
+  }
+}
